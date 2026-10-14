@@ -1,0 +1,69 @@
+.card{
+  width: 300px;
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 5%;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font: white;
+  margin-top: 10px;
+}
+.bttn{
+  background-color: blueviolet;
+  color: aliceblue;
+  padding: 5px 20px;
+  border-radius: 25%;
+  border: none;
+  margin-bottom: 20px;
+}
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 40px;
+  border: 3px solid blueviolet;
+}
+
+h3{
+  margin-top: -15px;
+}
+
+.name{
+  margin-top: 50px;
+}
+
+.star{
+  margin-top: -10px;
+}
+
+.purple{
+  width: 400px;
+  height: 300px;
+  background-color: blueviolet;
+  position: absolute;
+  top: -160px;
+  z-index: -1;
+}
+.links{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-left: 250px;
+  margin-top: 40px;
+  gap: 5px;
+}
+
+.container{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
